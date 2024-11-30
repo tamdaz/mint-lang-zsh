@@ -14,8 +14,7 @@ git clone --depth=1 https://github.com/tamdaz/mint-lang-zsh ~/.oh-my-zsh/custom/
 
 Once installed, add it to the plugin list in ~/.zshrc : 
 ```sh
--plugins=(...)
-+plugins=(... mint-lang)
+plugins=(... mint-lang)
 ```
 
 And refresh the source :
@@ -30,10 +29,9 @@ To uninstall mint-lang-zsh, delete mint-lang from the plugin.
 rm -rf ~/.oh-my-zsh/custom/plugins/mint-lang
 ```
 
-And remove it from the plugin list : 
+And remove `mint-lang` from the plugin list : 
 ```sh
--plugins=(... mint-lang)
-+plugins=(... mint-lang)
+plugins=(...)
 ```
 
 ## Contributors
