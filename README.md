@@ -4,6 +4,8 @@
 ## Requirements
 - [Zsh](https://github.com/zsh-users/zsh)
 - [Oh my Zsh](https://github.com/ohmyzsh/ohmyzsh)
+- [Zsh](https://github.com/zsh-users/zsh)
+- [Oh my Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Installation
 
@@ -12,11 +14,28 @@ To use mint-lang-zsh as plugin, clone it and install it into OMZ plugins directo
 git clone --depth=1 https://github.com/tamdaz/mint-lang-zsh ~/.oh-my-zsh/custom/plugins/mint-lang
 ```
 
-## Uninstall this plugin
+Once installed, add it to the plugin list in ~/.zshrc : 
+```sh
+-plugins=(...)
++plugins=(... mint-lang)
+```
 
-To uninstall mint-lang-zsh, delete it.
+And refresh the source :
+```sh
+source ~/.zshrc
+```
+
+## Uninstall
+
+To uninstall mint-lang-zsh, delete mint-lang from the plugin.
 ```sh
 rm -rf ~/.oh-my-zsh/custom/plugins/mint-lang
+```
+
+And remove it from the plugin list : 
+```sh
+-plugins=(... mint-lang)
++plugins=(... mint-lang)
 ```
 
 ## Contributors
