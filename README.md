@@ -4,8 +4,6 @@
 ## Requirements
 - [Zsh](https://github.com/zsh-users/zsh)
 - [Oh my Zsh](https://github.com/ohmyzsh/ohmyzsh)
-- [Zsh](https://github.com/zsh-users/zsh)
-- [Oh my Zsh](https://github.com/ohmyzsh/ohmyzsh)
 
 ## Installation
 
